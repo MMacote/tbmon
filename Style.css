@@ -1,38 +1,4 @@
-﻿body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f4f8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.container {
-    text-align: center;
-}
-
-h1 {
-    margin-bottom: 40px;
-    color: #333;
-}
-
-.button-group .btn {
-    display: inline-block;
-    padding: 15px 30px;
-    margin: 10px;
-    font-size: 18px;
-    background-color: #1976d2;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: background-color 0.3s;
-}
-
-    .button-group .btn:hover {
-        background-color: #0d47a1;
-    }
-.collapsible {
+﻿.collapsible {
     background-color: #2196f3;
     color: white;
     cursor: pointer;
@@ -70,12 +36,3 @@ h1 {
         padding: 8px 0;
         border-bottom: 1px solid #ccc;
     }
-.search-box {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    margin-bottom: 20px;
-    border: 2px solid #1976d2;
-    border-radius: 6px;
-    box-sizing: border-box;
-}
