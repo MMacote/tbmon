@@ -13,11 +13,14 @@
 }
 
 .header-image {
-    width: 100vw;
-    height: 300px;
-    object-fit: cover; /* Ensures the image fills space without distortion */
-    display: block;
+    width: 100vw; /* Full viewport width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent inline gap */
+    margin: 0; /* Remove space around */
+    object-fit: cover; /* Crop image to fill if necessary */
+    border-radius: 0; /* Optional: remove rounding if you want a clean edge-to-edge look */
 }
+
 
 
 .main-title {
