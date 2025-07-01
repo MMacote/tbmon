@@ -13,12 +13,12 @@
 }
 
 .header-image {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    border-radius: 12px;
-    margin-bottom: 20px;
+    width: 100vw;
+    height: 300px;
+    object-fit: cover; /* Ensures the image fills space without distortion */
+    display: block;
 }
+
 
 .main-title {
     font-size: 28px;
